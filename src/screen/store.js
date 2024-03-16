@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './store.css';
-import { FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaFacebookSquare } from "react-icons/fa";
+
  const Store=()=>{
     return(
         <div>
@@ -95,17 +93,6 @@ import { FaFacebookSquare } from "react-icons/fa";
             <Link to="/stationary">Stationary</Link>
             </button>
             </center>
-            <footer>
-                <div className='footer'>
-                <div className="social-links">
-        <a href="https://www.instagram.com"><i className="social"><FaInstagram /></i></a>
-        <a href="https://www.linkedin.com"><i className="social"><FaSquareXTwitter /></i></a>
-        <a href="https://www.facebook.com"><i className="social"><FaFacebookSquare /></i></a>
-      </div>
-      <p> 2024 @Fusion Hub. All rights reserved.</p>
-      </div>
-            </footer>
-
         </div>
     )
  }

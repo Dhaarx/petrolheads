@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../navbar/navbar';
 import "./home.css";
 import ima from '../images/farm.jpg' ;
+
 const Home=()=>{
     return(
         <div className="back" >
-            <Navbar />
+           
             
                 <div className="firstline">
                   <p >Are you in NEED?</p>
@@ -28,6 +28,10 @@ const Home=()=>{
                <div className='ima'>
                 <img src={ima} alt='imag'></img>
                </div>
+               <br/>
+                <br/>
+                <br/>
+                <br/>
         </div>
     )
  }
