@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter,RouterProvider} from 'react-router-dom';
+import { createBrowserRouter,RouterProvider,Navigate} from 'react-router-dom';
 import Store from './screen/store';
 import Stationary from './screen/stationary';
 import Saloon from './screen/saloon';
@@ -14,28 +14,52 @@ import Home from './screen/home';
 const approuter=createBrowserRouter([
   {
     path:'/',
-    element:<App/>
+    element:<Navigate to="/home" replace/>
   },
   {
-    path:'/stationary',
-    element:<Stationary/>
+    path:'/',
+    element:<App/>,
+    children:[
+      {
+        path:'/home',
+        element:<Home/>
+      },
+      {
+        path:'/stationary',
+        element:<Stationary/>
+      },
+      {
+        path:'/store',
+        element:<Store/>
+      },
+      {
+        path:'/saloon',
+        element:<Saloon/>
+      },
+      {
+        path:'/cart',
+        element:<Cart/>
+      },
+    ]
   },
-  {
-    path:'/store',
-    element:<Store/>
-  },
-  {
-    path:'/saloon',
-    element:<Saloon/>
-  },
-  {
-    path:'/cart',
-    element:<Cart/>
-  },
-  {
-    path:'/home',
-    element:<Home/>
-  }
+
+  // {
+  //   path:'/store',
+  //   element:<Store/>
+  // },
+  // {
+  //   path:'/saloon',
+  //   element:<Saloon/>
+  // },
+  // {
+  //   path:'/cart',
+  //   element:<Cart/>
+  // },
+  // {
+  //   path:'/home',
+  //   element:<Home/>
+  // },
+ 
   
 ])
 
