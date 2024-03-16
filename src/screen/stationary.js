@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../foot/footer';
 
 
  const Stationary=()=>{
@@ -13,7 +12,6 @@ import Footer from '../foot/footer';
             <Link to="/saloon">Saloon</Link>
             </button>
             </center>
-            <Footer/>
         </div>
     )
  }
