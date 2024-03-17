@@ -8,7 +8,6 @@ import Footer from './foot/footer';
 function App() {
   return (
     <>
-   
       <Navbar/>
       <Outlet/>
       <Footer/>
