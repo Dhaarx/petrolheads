@@ -51,13 +51,26 @@
 
  .but{
     position: absolute;
-    /* align-self:last baseline; */
-    font-size: 2rem;
-   padding: 0.5rem;
    bottom: 0;
-   color: #655f5f;
-    /* justify-content: flex-end; */
+   
+   
  }
+ .but1{
+    position: absolute;
+   bottom: 0;
+ }
+ .but img{
+    width:50px;
+    height:50px;
+    opacity: 1;
+    border-radius: 0;
+ }
+ .but1 img{
+    width:43px;
+    height:43px;
+    opacity: 1;
+ }
+
 
  .but:hover {
     box-shadow: 0 0 15px rgba(2, 255, 158, 0.1);
