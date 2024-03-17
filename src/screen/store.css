@@ -13,7 +13,7 @@
     box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-.container{
+.contain{
     
     margin-right: 0px;
     margin-top: 4rem;
@@ -45,6 +45,7 @@
     width: 137.9px;
     height:135.18px;
     border-radius: 20px;
+    
 }
 
 
@@ -78,7 +79,7 @@
  .cards p{
     position:absolute;
     top: 25%;
-    left: 2.5%;
+    left: 5%;
     max-width:9rem;
     font-size: small;
  }
@@ -88,6 +89,10 @@
     left: 5%;
     margin-right: 5%;
  }
-
+ .cards h4{
+    position: absolute;
+    top: 65%;
+   left: 6%;
+}
 
   

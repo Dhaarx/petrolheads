@@ -17,9 +17,45 @@ const Footer=()=>{
                     <a href="https://www.facebook.com"><i className="social"><FaFacebookSquare /></i></a>
                     <a href='https://www.snapchat.com'><i className='social'><FaSnapchat /></i></a>
                 </div>
+                
                 <div className='ss'>
                     <p>Get Exclusive Deals in your Inbox</p>
+                    <button>youremail@gmail.com</button>
                 </div>
+                <div className='aa'>
+                    <button>Subscribe</button>
+                </div>
+                <div className='cc'>
+                    <p>Legal Pages</p>
+                </div>
+                <div className='bb'>
+                    <p>Terms and conditions<br/>
+                    Privacy<br/>
+                    Cookies<br/>
+                    Modern Slavery Statement</p>
+                </div>
+                <div className='last'>
+                    <div className='p11'>
+                        <p>Copyright 2024, All Rights Reserved.</p>
+                    </div>
+                    <div className='p12'>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div className='p13'>
+                        <p>Terms</p>
+                    </div>
+                    <div className='p14'>
+                        <p>Pricing</p>
+                    </div>
+                    <div className='p15'>
+                        <p>Do not sell or share my personal information</p>
+                    </div>
+
+                </div>
+              
+               
+
+                
             </div>
     )
 }

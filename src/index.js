@@ -9,17 +9,21 @@ import Foodcourt from './screen/foodcourt';
 import Saloon from './screen/saloon';
 import Cart from './screen/cart';
 import Home from './screen/home';
-
+import Entry from './authentication/Entry';
 
 const approuter=createBrowserRouter([
   {
     path:'/',
-    element:<Navigate to="/home" replace/>
+    element:<Navigate to="/Entry" replace/>
   },
   {
     path:'/',
     element:<App/>,
     children:[
+      {
+        path:'/Entry',
+        element:<Entry/>,
+      },
       {
         path:'/home',
         element:<Home/>
@@ -43,22 +47,7 @@ const approuter=createBrowserRouter([
     ]
   },
 
-  // {
-  //   path:'/store',
-  //   element:<Store/>
-  // },
-  // {
-  //   path:'/saloon',
-  //   element:<Saloon/>
-  // },
-  // {
-  //   path:'/cart',
-  //   element:<Cart/>
-  // },
-  // {
-  //   path:'/home',
-  //   element:<Home/>
-  // },
+
  
   
 ])
