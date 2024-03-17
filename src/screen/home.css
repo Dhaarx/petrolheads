@@ -44,7 +44,8 @@
 
   }
  .btn1{
-    background-color: rgb(30, 29, 29);
+  background: linear-gradient(90deg, #131038 0.11%, #000000 100%);
+
     color: #ffffff;
     width: 421px;
     margin-top: 380px; 

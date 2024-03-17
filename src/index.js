@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter,RouterProvider,Navigate} from 'react-router-dom';
 import Store from './screen/store';
-import Stationary from './screen/stationary';
+import Foodcourt from './screen/foodcourt';
 import Saloon from './screen/saloon';
 import Cart from './screen/cart';
 import Home from './screen/home';
@@ -25,8 +25,8 @@ const approuter=createBrowserRouter([
         element:<Home/>
       },
       {
-        path:'/stationary',
-        element:<Stationary/>
+        path:'/foodcourt',
+        element:<Foodcourt/>
       },
       {
         path:'/store',
