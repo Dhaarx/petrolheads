@@ -12,11 +12,13 @@ const Footer=()=>{
                 <div className="social-links">
                     <a href="https://www.instagram.com"><i className="social"><FaInstagram /></i></a>
                     <a href="https://www.linkedin.com"><i className="social"><FaSquareXTwitter /></i></a>
-                    <p></p>
                 </div>
                 <div className='social-linkss'>
                     <a href="https://www.facebook.com"><i className="social"><FaFacebookSquare /></i></a>
                     <a href='https://www.snapchat.com'><i className='social'><FaSnapchat /></i></a>
+                </div>
+                <div className='ss'>
+                    <p>Get Exclusive Deals in your Inbox</p>
                 </div>
             </div>
     )

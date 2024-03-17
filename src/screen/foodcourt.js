@@ -5,18 +5,19 @@ import plus from '../images/plus.png' ;
 
 
 
- const Store=()=>{
+ const Foodcourt=()=>{
     return(
         <div>
+
             <br/>
             <div className='container'>
-            <div className='text'>Stationary Essentials</div>
+            <div className='text'>Tiffin Items</div>
             <div  className='parent1'>
 
             <div className='cards '>
-                <h3>Note Books</h3>
-                <p>Notebooks with various cover designs (plain, patterned, inspirational quotes)</p>
-                <img src= {require('../Pictures/notebook.png')} alt="in"/>
+                <h3>Masala Dosa</h3>
+                <p>A crispy South Indian crepe filled with spiced potato filling.</p>
+                <img src= {require('../Pictures/f1.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -26,9 +27,9 @@ import plus from '../images/plus.png' ;
             </div>
 
             <div className='cards '>
-                <h3>Pens</h3>
-                <p>Ballpoint pens in assorted colors and styles</p>
-                <img src= {require('../Pictures/pens.jpg')} alt="in"/>
+                <h3>Puri Bhaji</h3>
+                <p>Deep-fried puffed bread served with spiced potato curry.</p>
+                <img src= {require('../Pictures/f2.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -38,9 +39,9 @@ import plus from '../images/plus.png' ;
                 </div>
             
             <div className='cards '>
-                <h3>Highlighters</h3>  
-                <p>Illuminate important points and passages with our bright and fluorescent highlighters</p>
-                <img src= {require('../Pictures/marker.png')} alt="in"/>
+                <h3>Paneer Paratha</h3>  
+                <p>Whole wheat bread stuffed with spiced paneer (Indian cottage cheese).</p>
+                <img src= {require('../Pictures/f3.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -54,9 +55,9 @@ import plus from '../images/plus.png' ;
             <div  className='parent1'>
 
                 <div className='cards'>
-                    <h3>Gel Pens</h3>
-                    <p>Gel pens with smooth ink flow</p>
-                    <img src= {require('../Pictures/gelpen.png')} alt="in"/>
+                    <h3>Aloo Poha</h3>
+                    <p>Flattened rice cooked with potatoes, peanuts, and spices.</p>
+                    <img src= {require('../Pictures/f4.png')} alt="in"/>
                     <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -66,9 +67,9 @@ import plus from '../images/plus.png' ;
                 </div>
 
                 <div className='cards'>
-                    <h3>Scissors</h3>
-                    <p>Cut with precision and ease using our sharp and durable scissors</p>
-                    <img src= {require('../Pictures/scissors.png')} alt="in"/>
+                    <h3>Chole Bhature</h3>
+                    <p>Spicy chickpea curry served with fried bread.</p>
+                    <img src= {require('../Pictures/f5.png')} alt="in"/>
                     <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -78,9 +79,9 @@ import plus from '../images/plus.png' ;
                 </div>
 
                 <div className='cards'>
-                    <h3>Sticky Notes</h3>
-                    <p>Elevate your note-taking experience with our premium sticky notes</p>
-                    <img src= {require('../Pictures/sticky.png')} alt="in"/>
+                    <h3>Idli Sambar</h3>
+                    <p>Steamed rice cakes served with lentil-based vegetable stew.</p>
+                    <img src= {require('../Pictures/f6.png')} alt="in"/>
                     <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -92,13 +93,13 @@ import plus from '../images/plus.png' ;
         </div>
             
             <div className='container'>
-            <div className='text'>Art Supplies</div>
+            <div className='text'>Fast Foods</div>
         <div  className='parent1'>
 
             <div className='cards'>
-                <h3>Sketch Book</h3>
-                <p>Capture your imagination on the go</p>
-                <img src= {require('../Pictures/pastels.png')} alt="in"/>
+                <h3>Veg Hakka Noodles</h3>
+                <p>Stir-fried noodles with mixed vegetables, seasoned with Hakka spices.</p>
+                <img src= {require('../Pictures/f7.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -109,9 +110,9 @@ import plus from '../images/plus.png' ;
 
             <div className='cards'>
 
-                <h3>Acrylic Paint Sets</h3>
-                <p>Unleash your creativity with our vibrant acrylic paint sets</p>
-                <img src= {require('../Pictures/Sketchbook.png')} alt="in"/>
+                <h3>Paneer Fried Rice</h3>
+                <p>Rice stir-fried with paneer (Indian cottage cheese) and vegetables.</p>
+                <img src= {require('../Pictures/f8.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -121,9 +122,9 @@ import plus from '../images/plus.png' ;
             </div>
 
             <div className='cards'>
-                <h3>Paintbrushes</h3>
-                <p>Bring your vision to life with our versatile paintbrushes</p>
-                <img src= {require('../Pictures/oil-paint.png')} alt="in"/>
+                <h3>Pav Bhaji</h3>
+                <p>Spiced vegetable mash served with buttered bread rolls.</p>
+                <img src= {require('../Pictures/f9.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -137,9 +138,9 @@ import plus from '../images/plus.png' ;
          <div  className='parent1'>
 
             <div className='cards'>
-                <h3>Markers</h3>
-                <p>Add vibrant hues and fine details to your projects with our high-quality marker sets</p>
-                <img src= {require('../Pictures/markers2.png')} alt="in"/>
+                <h3>Samosa</h3>
+                <p>Deep-fried pastry filled with spiced potatoes and peas.</p>
+                <img src= {require('../Pictures/f10.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -149,9 +150,9 @@ import plus from '../images/plus.png' ;
             </div>
 
             <div className='cards '>
-                <h3>Oil Paints</h3>
-                <p>Achieve rich and luminous effects with our professional-grade oil paint sets</p>
-                <img src= {require('../Pictures/paintbrush.png')} alt="in"/>
+                <h3>Vada Pav</h3>
+                <p>Spicy potato patty served in a bun with chutneys.</p>
+                <img src= {require('../Pictures/f11.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -161,9 +162,9 @@ import plus from '../images/plus.png' ;
             </div>
 
             <div className='cards '>
-                <h3>Pastels</h3>
-                <p>Experience the soft, velvety texture and brilliant colors of our premium pastel sets</p>
-                <img src= {require('../Pictures/paint.png')} alt="in"/>
+                <h3>Chowmein</h3>
+                <p>Stir-fried noodles with vegetables or chicken, seasoned with soy sauce.</p>
+                <img src= {require('../Pictures/f12.png')} alt="in"/>
                  <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -176,12 +177,12 @@ import plus from '../images/plus.png' ;
             </div>
 
             <div className='container'>
-            <div className='text'>Chocolates And Snacks</div>
+            <div className='text'>Bakery Items</div>
             <div  className='parent1'>
             <div className='cards'>
-                <h3>Dairy Milk</h3>
-                <p>Creamy and smooth milk chocolate.</p>
-                <img src= {require('../Pictures/dairy-milk.png')} alt="in"/>
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Classic cookies with rich chocolate chips.</p>
+                <img src= {require('../Pictures/f13.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -191,9 +192,9 @@ import plus from '../images/plus.png' ;
             </div>
             <div className='cards'>
 
-                <h3>Dark Chocolate</h3>
-                <p>Rich and intense dark chocolate.</p>
-                <img src= {require('../Pictures/dark chocolate.png')} alt="in"/>
+                <h3>Vegetable Puff</h3>
+                <p>Flaky pastry filled with spiced vegetable filling.</p>
+                <img src= {require('../Pictures/f14.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -202,9 +203,9 @@ import plus from '../images/plus.png' ;
                 </div>
             </div>
             <div className='cards'>
-                <h3>White Chocolate</h3>
-                <p>Sweet and buttery white chocolate.</p>
-                <img src= {require('../Pictures/white-chocolate.png')} alt="in"/>
+                <h3>Plain Croissant</h3>
+                <p>Buttery and flaky pastry.</p>
+                <img src= {require('../Pictures/f15.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -215,9 +216,9 @@ import plus from '../images/plus.png' ;
             </div>
             <div  className='parent1'>
             <div className='cards'>
-            <h3>Hazelnut Chocolate</h3>
-            <p>Milk chocolate with crunchy hazelnuts.</p>
-            <img src= {require('../Pictures/silk.png')} alt="in"/>
+            <h3>Blueberry Muffin</h3>
+            <p>Soft and moist muffin with blueberries.</p>
+            <img src= {require('../Pictures/f16.png')} alt="in"/>
             <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -227,9 +228,9 @@ import plus from '../images/plus.png' ;
                 
             </div>
             <div className='cards '>
-                <h3>Fruit and Nut Chocolate</h3>
-                <p>Milk chocolate with dried fruits and nuts.</p>
-                <img src= {require('../Pictures/caramel-choc.png')} alt="in"/>
+                <h3>Banana Bread</h3>
+                <p>Moist bread with a hint of banana flavor.</p>
+                <img src= {require('../Pictures/f17.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -238,9 +239,9 @@ import plus from '../images/plus.png' ;
                 </div>
             </div>
             <div className='cards '>
-                <h3>Caramel-filled Chocolate</h3>
-                <p>Milk chocolate with gooey caramel filling.</p>
-                <img src= {require('../Pictures/nut-chocolate.png')} alt="in"/>
+                <h3>Black Forest Cake</h3>
+                <p>Layers of chocolate sponge cake with cherries and whipped cream.</p>
+                <img src= {require('../Pictures/f18.png')} alt="in"/>
                 <div className='but'>
                  <img src={cart} alt="cart"/>
                 </div>
@@ -255,4 +256,4 @@ import plus from '../images/plus.png' ;
         </div>
     )
  }
- export default Store;
+ export default Foodcourt;
