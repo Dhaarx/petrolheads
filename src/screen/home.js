@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css";
-import ima from '../images/farm.jpg' ;
+import ima from '../images/stall.jpg' ;
+
 
 const Home=()=>{
     return(
@@ -31,7 +32,7 @@ const Home=()=>{
                <br/>
                 <br/>
                 <br/>
-                <br/>
+                <br/>               
         </div>
     )
  }

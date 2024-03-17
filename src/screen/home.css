@@ -10,6 +10,7 @@
     line-height: 78px;
     letter-spacing: 0em;
     text-align: left;
+    color:#ffffff;
   }
   .p1{
     position:absolute;
@@ -22,6 +23,7 @@
     line-height: 113px;
     letter-spacing: 0em;
     text-align: left;
+    color:#ffffff;
     
   }
   .p2{
@@ -38,12 +40,12 @@
     line-height: 48px;
     letter-spacing: 0em;
     text-align: left;
-    color: #1298f7;
+    color: #fbef07
 
   }
  .btn1{
     background-color: rgb(30, 29, 29);
-    color: #b8f1b0;
+    color: #ffffff;
     width: 421px;
     margin-top: 380px; 
     margin-left: 145px; 
@@ -60,7 +62,7 @@
     border-radius: 50%;
     width: 450px;
     height: 450px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border: 2px solid #494646; 
+    z-index: 20;
  }
- 

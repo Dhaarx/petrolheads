@@ -12,6 +12,7 @@ const Footer=()=>{
                 <div className="social-links">
                     <a href="https://www.instagram.com"><i className="social"><FaInstagram /></i></a>
                     <a href="https://www.linkedin.com"><i className="social"><FaSquareXTwitter /></i></a>
+                    <p></p>
                 </div>
                 <div className='social-linkss'>
                     <a href="https://www.facebook.com"><i className="social"><FaFacebookSquare /></i></a>
